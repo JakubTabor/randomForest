@@ -5,3 +5,4 @@
 # Next i split my data into target and rest: "X" and "y" 
 # I get my train_test_split and test_size at (0.2)
 # From "ensemble" i get my "RandomForestClassifier" and set number of "trees" at (40) """n_estimators=40"""
+# And train my model """model.fit(X_train, Y_train)"""
