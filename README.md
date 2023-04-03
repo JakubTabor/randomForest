@@ -7,3 +7,4 @@
 # From "ensemble" i get my "RandomForestClassifier" and set number of "trees" at (40) """n_estimators=40"""
 # And train my model """model.fit(X_train, Y_train)"""
 # Then i get my score """model.score(X_train, Y_train)""" and predictions """model.predict(X_test)"""
+# From "metrics" i get "confusion_matrix" and set my "Y_test" and "Y_predicted" into it
