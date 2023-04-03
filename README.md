@@ -6,3 +6,4 @@
 # I get my train_test_split and test_size at (0.2)
 # From "ensemble" i get my "RandomForestClassifier" and set number of "trees" at (40) """n_estimators=40"""
 # And train my model """model.fit(X_train, Y_train)"""
+# Then i get my score """model.score(X_train, Y_train)""" and predictions """model.predict(X_test)"""
