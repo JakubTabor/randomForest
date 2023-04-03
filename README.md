@@ -8,3 +8,4 @@
 # And train my model """model.fit(X_train, Y_train)"""
 # Then i get my score """model.score(X_train, Y_train)""" and predictions """model.predict(X_test)"""
 # From "metrics" i get "confusion_matrix" and set my "Y_test" and "Y_predicted" into it
+# To visualize the results i import "seaborn" and plot them """sn.heatmap(cm, annot=True)"""
